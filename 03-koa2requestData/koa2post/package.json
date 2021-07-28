@@ -1,15 +1,15 @@
 {
-  "name": "02-koa2router",
+  "name": "koa2post",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "koa": "^2.13.1",
-    "koa-router": "^7.4.0"
-  }
+  "license": "ISC"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "02-koa2router",
+  "name": "koa2get",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.13.1",
-    "koa-router": "^7.4.0"
+    "koa": "^2.13.1"
   }
 }
