@@ -7,9 +7,10 @@ const app = new Koa()
 // 配置储存到session信息的mysql
 let store = new MysqlSession({
   user: 'root',
-  password: 'abc123',
+  password: '@Yun2032763',
   database: 'koa_demo',
-  host: '1.15.139.29'
+  // 这里要用localhost
+  host: '127.0.0.1'
 })
 
 let cookie = {
