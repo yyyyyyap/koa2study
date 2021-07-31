@@ -11,7 +11,7 @@ const app = new Koa()
  * 使用第三方中间件 start
  */
 app.use(views(path.join(__dirname, '/view'), {
-  extension: 'ejx'
+  extension: 'ejs'
 }))
 
 // 静态资源目录相对于入口文件index.js的路径
