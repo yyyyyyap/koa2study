@@ -14,3 +14,16 @@ function getSqlContent( fileName, path ) {
   sqlContentMap[ fileName ] = content
 }
 
+/**
+ * @description  封装所有sql文件脚本内容 
+ * @return {object}
+ */
+function getSqlContentMap() {
+  let sqlMap = getSqlMap()
+  for( let key in sqlMap ) {
+    getSqlContent( key, sqlMap[key] )
+  }
+  return sqlContentMap
+}
+
+module.exports = getSqlContentMap
